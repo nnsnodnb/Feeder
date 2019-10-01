@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "Feeder",
+    platforms: [
+        .iOS(.v10)
+    ],
     products: [
         .library(name: "Feeder", targets: ["Feeder"])
     ],
